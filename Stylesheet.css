@@ -162,15 +162,6 @@ footer {
     font-size: 20px;
 }
 
-footer.klein {
-    visibility: hidden;
-}
-
-
-.klein {
-    font-size: 0;
-}
-
 @media screen and (max-width: 1000px) {
     body{
         max-width: 700px;
@@ -191,16 +182,6 @@ footer.klein {
         height: auto;
         width: 48%;
         float: left;
-    }
-
-
-    /*thomas*/
-    .groot {
-        font-size: 0;
-    }
-
-    .klein {
-        font-size: 20px;
     }
 
 }
@@ -230,6 +211,8 @@ footer.klein {
         float: left;
     }
 }
+
+
 
 
 
