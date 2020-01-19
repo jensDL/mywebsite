@@ -149,8 +149,6 @@ main article:nth-child(4n +1) {
 
 
 
-
-
 footer {
     display: block;
     bottom: 0;
@@ -162,7 +160,6 @@ footer {
     text-align: center;
     vertical-align: middle;
     font-size: 20px;
-
 }
 
 footer.klein {
@@ -215,8 +212,12 @@ footer.klein {
 
     /*hier nog werk aan*/
     nav a{
-        margin-right: 0;
-        margin-left: 0;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+    .margin_left {
+        margin-left: 15px;
     }
 
     .text_banner {
