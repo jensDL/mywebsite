@@ -9,7 +9,6 @@ body {
     width: 100%;
     margin: auto;
     height: 100%;
-    position: relative;
 
 }
 
@@ -148,15 +147,11 @@ main article:nth-child(4n +1) {
 
 }
 
-main{
-    position: relative;
-    height: 900px;
-}
+
 
 
 
 footer {
-    position: absolute;
     display: block;
     bottom: 0;
     width: 100%;
@@ -199,7 +194,6 @@ footer.klein {
         height: auto;
         width: 48%;
         float: left;
-        position: absolute;
     }
 
 
@@ -233,7 +227,6 @@ footer.klein {
         height: auto;
         width: 98%;
         float: left;
-        position: absolute;
     }
 }
 
