@@ -9,6 +9,7 @@ body {
     width: 100%;
     margin: auto;
     height: 100%;
+    position: relative;
 
 }
 
@@ -147,11 +148,15 @@ main article:nth-child(4n +1) {
 
 }
 
-main article {
+main{
     position: relative;
+    height: 900px;
 }
 
+
+
 footer {
+    position: absolute;
     display: block;
     bottom: 0;
     width: 100%;
@@ -164,6 +169,11 @@ footer {
     font-size: 20px;
 
 }
+
+footer.klein {
+    visibility: hidden;
+}
+
 
 .klein {
     font-size: 0;
