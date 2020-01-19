@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>De Tuin Van sam </title>
     <link rel="stylesheet" href="Stylesheet.css">
+    <link rel="stylesheet" href="StyleSheet_Contact.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -12,12 +13,38 @@
             <a><img class="logo" src="assets/logo.png" height="129" width="185" alt="picture of our logo"/></a>
             <a class="margin_left" href="Index.html">Nieuws</a>
             <a href="Producten.html">Producten</a>
-            <a href="Contact.html">contact</a>
+            <a href="Contact.html">Contact</a>
             <a href="https://github.com/jensDL/mywebsite">Github</a>
         </nav>
         <img class="banner" src="assets/banner.jpg" alt="picture of leaves"/>
         <h1 class="text_banner">De Tuin van sam</h1>
     </header>
+
+    <section class="underline">
+        <img class="contact_logo" src="assets/contact.png" alt="envelope picture"/>
+        <h3>Contact</h3>
+    </section>
+
+    <form action="mailto:sam.agten@pxl.be">
+        <input class="text_input margin_right" type="tekst" name="lastname"
+           placeholder="Naam" required/>
+
+        <input class="text_input margin_right" type="email" name="email"
+               placeholder="email" required/>
+
+        <input class="text_input" type="tekst" name="Subject"
+               placeholder="Subject" required/>
+
+        <input class="text_input message" type="tekst" name="boodschap"
+               placeholder="boodschap" required/>
+
+        <input class="submit_button" type="submit" value="Stuur Boodschap">
+    </form>
+
+
+    <footer class="groot">copyright pxl 2020</footer>
+    <footer class="klein">thomas wil je straks rl spelen en aub quit niet zo snel</footer>
+
 
 </body>
 </html>
