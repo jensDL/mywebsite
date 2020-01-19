@@ -1,0 +1,59 @@
+* {
+    font-family: serif, Roboto;
+}
+
+.with_6_cells {
+    width: 100%;
+}
+
+.with_2_cells {
+    width: 33.33%;
+}
+
+.with_1_cells {
+    width: 16.66%;
+}
+
+.very_dark_green {
+    background-color: #326544;
+}
+
+
+.dark_green {
+    background-color: #368050;
+}
+
+.light_green {
+    background-color: #85d38e;
+}
+
+.very_light_green {
+    background-color: #b5d8b9;
+}
+
+.invisible {
+    color: #326544;
+}
+ul{
+    list-style-type: none;
+    margin-left: 0;
+}
+
+li{
+    float: left;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+
+.Shoping_logo {
+    width: 50px;
+    height: 50px;
+    opacity: 100%;
+    left: 0;
+    position: absolute;
+}
+
+
+
+
